@@ -13,6 +13,7 @@
    - Contar con una cuenta de MongoDB
    - Contar con la aplicación de MongoDB Compass para mayor comodidad
    - Contar con Visual Studio Code
+   - Crear una base de datos en MongoDB y subir el archivo `.json`
 
 ## Instalación y configuración del proyecto
    - `npm init -y`
