@@ -1,0 +1,4 @@
+MONGODB_URLSTRING = mongodb+srv://nombredeusuario:contraseña@cluster0.3m1hc5c.mongodb.net/
+PORT=3000
+DATABASE_NAME = nombredb
+COLLECTION_NAME = nombrecollection

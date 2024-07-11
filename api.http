@@ -1,0 +1,39 @@
+### Ir a la pagina principal
+http://localhost:3000
+
+### Mostrar todos los productos
+GET http://localhost:3000/productos
+
+### Mostrar producto por nombre
+GET http://localhost:3000/productos?nombre=Laptop%20Ultrabook
+
+### Mostrar producto por nombre parcialmente
+GET http://localhost:3000/productos?nombre=Lap
+
+
+### Mostrar una producto por id
+GET http://localhost:3000/productos/668f18de281643155f8c72ff
+
+### Agregar un nuevo producto
+POST http://localhost:3000/productos/
+content-type: application/json
+
+{   
+    "nombre": "Teclado de Membrana",
+    "precio": 223.235,
+    "categoria": "Accesorios"
+}
+
+### Modificar un producto parcialmente
+PATCH http://localhost:3000/productos/668f18de281643155f8c72ff
+content-type: application/json
+
+{
+    "precio": 346
+}
+
+### Borrar una peli por id
+DELETE http://localhost:3000/productos/668f4465e68c954fb85a4d1b
+
+### Prueba ruta inexistente
+GET http://localhost:3000/estarutanoexiste
