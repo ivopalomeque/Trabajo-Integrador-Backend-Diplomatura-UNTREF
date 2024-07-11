@@ -24,8 +24,7 @@
 # Modificación del archivo .env copy
    - Cambiar su nombre a `.env`
    - Dentro nos vamos a encontrar con `MONGODB_URLSTRING = mongodb+srv://nombredeusuario:contraseña@cluster0.3m1hc5c.mongodb.net/` donde tendremos que cambiar `nombredeusuario` por nuestro usuario de mongodb y en `contraseña` tendremos que poner la clave que se nos proporcione para conectar con MongoDB Compass
-   - Luego nos encontraremos con `DATABASE_NAME` donde tendremos que colocar el nombre de nuestra base de datos. Y
-   - `COLLECTION_NAME` donde tendremos que colocar el nombre de nuestra colección
+   - Luego nos encontraremos con `DATABASE_NAME` donde tendremos que colocar el nombre de nuestra base de datos. Y `COLLECTION_NAME` donde tendremos que colocar el nombre de nuestra colección
 
 ## Descripción del Proyecto
 
